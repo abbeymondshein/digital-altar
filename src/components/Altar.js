@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
 
 const Altar = () => {
     return (
@@ -8,4 +10,8 @@ const Altar = () => {
     )
 }
 
-export default Altar;
+const mapStateToProps = (state) => ({
+    shelf: state.shelf,
+})
+
+export default connect(mapStateToProps)(Altar)
