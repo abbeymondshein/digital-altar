@@ -1,0 +1,6 @@
+[
+    {"id": 1, "title": "Daily", "color": "white", "duration": 1},
+    {"id": 2, "title": "Weekly", "color": "red", "duration": 7},
+    {"id": 3, "title": "Monthly", "color ": "blue", "duration": 30}
+  ]
+  

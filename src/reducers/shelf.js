@@ -4,7 +4,6 @@ import {
 
 const initialState = {
     currentItemsById: [],
-    shelf: []
 };
 
 // const currentItemsById = (state = initialState, action) => {
